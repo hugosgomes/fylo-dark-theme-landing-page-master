@@ -95,6 +95,7 @@ header li:hover {
   align-items: center;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .icons article:nth-child(odd) {
@@ -106,10 +107,10 @@ header li:hover {
   margin-bottom: 100px;
 }
 
-.icons article img {
+/* .icons article img {
   height: 88px;
   width: 96px;
-}
+} */
 
 .icons article h1 {
   margin: 25px 0 15px;
@@ -117,4 +118,97 @@ header li:hover {
 
 .icons article p {
   font-size: 14px;
+}
+
+.stay-productive {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 360px;
+}
+
+.stay-productive .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stay-productive .row .text-stay-productive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 546px;
+}
+
+.stay-productive .row h1 {
+  font-size: 40px;
+  max-width: 675px;
+  margin-bottom: 32px;
+}
+
+.stay-productive .row p {
+  margin-bottom: 32px;
+}
+
+.stay-productive .row a {
+  color: #62e4da;
+  line-height: 23px;
+}
+
+.stay-productive .row a img {
+  transform: translateY(3px);
+}
+
+.stay-productive .row:nth-child(1) {
+  margin-bottom: 175px;
+}
+
+.stay-productive .row:nth-child(2) article {
+  background-color: #21293c;
+  padding: 44px 25px 25px;
+  margin: 0 15px;
+  border-radius: 5px;
+}
+
+.stay-productive .row:nth-child(2) article main p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.stay-productive .row:nth-child(2) article footer {
+  display: flex;
+}
+
+.stay-productive .row:nth-child(2) article footer img {
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.stay-productive .row:nth-child(2) article footer span {
+  display: block;
+}
+
+.stay-productive .row:nth-child(2) article footer .name {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.stay-productive .row:nth-child(2) article footer .office {
+  font-size: 8px;
+}
+
+.stay-productive .row:nth-child(2) {
+  position: relative;
+}
+
+.stay-productive .row:nth-child(2)::before {
+  content: "";
+  background: url("../images/bg-quotes.png") no-repeat;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: -40px;
+}
+
+.footer {
+  background: #0c1524;
+  display: flex;
 }
